@@ -5,6 +5,24 @@
 
 This is a Body Mass Index (BMI) Calculator built using Python and PyQt6. The application allows users to input their weight and height, calculates their BMI, and categorizes their result into different health ranges.
 
+## Class and Method Documentation
+
+- MainWindow
+
+This class defines the main application window and handles user interactions.
+
+- Methods:
+
+__init__(self): Initializes the main window and UI components.
+
+calculate_bmi(self): Computes BMI and updates the result label with appropriate background color.
+
+clear_fields(self): Clears input fields and resets labels.
+
+show_help(self): Displays a help message with usage instructions.
+
+exit_app(self): Closes the application.
+
 ### How to Use
 
 Enter Weight: Input your weight in kilograms (kg) in the Weight field.
